@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.card {
+  margin: 10px 30px;
+  box-shadow: 5px 25px 25px -5px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  transition: all 0.5s ease;
+  transform: scale(0.9);
+}
+.images_style {
+  height: 55vh;
+}
+
+.card h1 {
+  background-color: #29353c;
+  color: #fff;
+}
+/* -----------------------media query---------------- */
+@media (max-width: 1170px) {
+  .container {
+    display: block;
+    text-align: center;
+  }
+  .card h1 {
+    background-color: #29353c;
+    color: #fff;
+  }
+  .container {
+    margin-top: 17rem;
+  }
+  .images_style {
+    width: 100%;
+    height: 60vh;
+  }
+}

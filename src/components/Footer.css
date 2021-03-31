@@ -1,0 +1,50 @@
+.footer {
+  background-color: #29353c;
+  display: flex;
+  height: 30vh;
+  color: #fff;
+  text-decoration: underline;
+}
+.featured {
+  flex: 20%;
+  margin: 0px 20px;
+}
+.company {
+  flex: 20%;
+}
+.resources {
+  flex: 20%;
+}
+.help {
+  margin: 0px 20px;
+}
+.footer ul {
+  margin-top: 0.3rem;
+}
+.footer ul li {
+  list-style: none;
+  color: rgb(201, 196, 196);
+}
+/* -----------------------media query---------------- */
+@media (max-width: 550px) {
+  .featured {
+    margin: 0px;
+  }
+  .help {
+    margin: 0px;
+  }
+  .footer {
+    height: 35vh;
+  }
+}
+@media (max-width: 500px) {
+  .help {
+    display: none;
+  }
+  .resources {
+    flex: 10%;
+  }
+  .company {
+    flex: 10%;
+  }
+}
